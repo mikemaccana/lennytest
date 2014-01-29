@@ -24,7 +24,7 @@ define(function(require){
   window.setTimeout(function(){
     ractive1.set('points', 2)
     ractive2.set('points', 2)
-    // If you've got modern browsers, you could also enable 'magic: true' on newer browsers and just set user.points = 2
+    // If you've got modern browsers, you could also enable 'magic: true' and just set user.points = 2
   }, 2 * 1000)
 
 })
